@@ -1,1 +1,144 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+nav {
+    margin: 3rem;
+}
+
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    float: left;
+    -webkit-transform: translateX(20%);
+    transform: translateX(20%);
+}
+
+.socialMediaNav {
+    list-style: none;
+    float: right;
+}
+
+.socialMediaNav li {
+    display: inline-block;
+    margin-left: 3rem;
+}
+
+.socialMediaNav li:first-child {
+    margin: 0;
+}
+
+.socialMediaNav li a:link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #070439;
+}
+
+.split {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.split__left {
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-intro.svg);
+    background-size: 100% 135%;
+}
+
+.split__right {
+    background-color: #fff;
+}
+
+.split__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.split__img img {
+    height: 35rem;
+    width: auto;
+}
+
+.contents {
+    top: 50%;
+    position: absolute;
+    /* margin-right: 5rem; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+p {
+    font-size: larger;
+    font-weight: 400;
+}
+
+.headingPrimary {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 5rem;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    font-weight: 400;
+}
+
+.headingPrimary h1 {
+    text-align: start;
+}
+
+.text {
+    color: gray;
+    margin: 3rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.signUp {
+    margin: 3rem;
+}
+
+.signUp h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 5rem;
+    border-radius: 0.7rem;
+}
+/*# sourceMappingURL=main.css.map */

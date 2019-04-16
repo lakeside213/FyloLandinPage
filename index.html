@@ -19,26 +19,61 @@
             href="https://fonts.googleapis.com/css?family=Raleway:700"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet prefetch"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+        />
         <link rel="stylesheet" href="css/main.css" />
 
         <title>Frontend Mentor | Beta sign up split layout Challenge</title>
     </head>
     <body>
-        All your files in one secure location, accessible anywhere. Fylo stores
-        all your most important files in one secure location. Access them
-        wherever you need, share and collaborate with friends, family and
-        co-workers. Sign up for early access Sign Up Privacy Policy
-
-        <footer>
-            <p class="attribution">
-                This page started life as a challenge on
-                <a
-                    href="https://www.frontendmentor.io?ref=challenge"
-                    target="_blank"
-                    >Frontend Mentor</a
-                >
-                🎉
-            </p>
-        </footer>
+        <div class="split split__left">
+            <div class="split__img">
+                <img src="images/illustration-main.svg" alt="" />
+            </div>
+        </div>
+        <div class="split split__right">
+            <nav>
+                <!--<img class="logo" src="images/logo.svg">-->
+                <div class="logo">
+                    <img class="logo" src="images/logo.svg" />
+                </div>
+                <ul class="socialMediaNav">
+                    <li>
+                        <a href="" class="fa fa-twitter" rel="noopener"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-facebook-f" rel="noopener"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fa fa-envelope" rel="noopener"></a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contents">
+                <div class="headingPrimary">
+                    <h1>
+                        All your files in one secure<br />
+                        location, accessible anywhere.
+                    </h1>
+                </div>
+                <div class="text">
+                    <p>
+                        Fylo stores all your most important files in one secure
+                        location. Access them wherever you need, share and
+                        collaborate with friends, family and co-workers.
+                    </p>
+                </div>
+                <div class="signUp">
+                    <h2>Sign up for early access</h2>
+                    <div id="signUp">
+                        <input type="text" name="signName" />
+                        <input type="submit" value="Sign Up" />
+                    </div>
+                </div>
+                <p>privacy policy</p>
+            </div>
+        </div>
     </body>
 </html>
