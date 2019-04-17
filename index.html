@@ -24,7 +24,15 @@
             href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
         />
         <link rel="stylesheet" href="css/main.css" />
-
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+        </style>
         <title>Frontend Mentor | Beta sign up split layout Challenge</title>
     </head>
     <body>
@@ -51,29 +59,34 @@
                     </li>
                 </ul>
             </nav>
-            <div class="contents">
-                <div class="headingPrimary">
-                    <h1>
-                        All your files in one secure<br />
-                        location, accessible anywhere.
-                    </h1>
-                </div>
-                <div class="text">
-                    <p>
-                        Fylo stores all your most important files in one secure
-                        location. Access them wherever you need, share and
-                        collaborate with friends, family and co-workers.
-                    </p>
-                </div>
-                <div class="signUp">
-                    <h2>Sign up for early access</h2>
-                    <div id="signUp">
-                        <input type="text" name="signName" />
-                        <input type="submit" value="Sign Up" />
+            <section class="content">
+                <div class="contents">
+                    <div class="headingPrimary">
+                        <h1>
+                            All your files in one secure location, accessible
+                            anywhere.
+                        </h1>
+                    </div>
+                    <div class="text">
+                        <p>
+                            Fylo stores all your most important files in one
+                            secure location. Access them wherever you need,
+                            share and collaborate with friends, family and
+                            co-workers.
+                        </p>
+                    </div>
+                    <div class="signUp">
+                        <h2>Sign up for early access</h2>
+                        <div id="signUp">
+                            <input type="text" name="signName" />
+                            <a href="" class="btn">Sign Up</a>
+                        </div>
                     </div>
                 </div>
-                <p>privacy policy</p>
-            </div>
+            </section>
+            <footer class="footer">
+                <a href="#">Privacy Policy</a>
+            </footer>
         </div>
     </body>
 </html>
