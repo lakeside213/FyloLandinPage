@@ -38,46 +38,5 @@
                 }
             }
         }
-        //     &::after {
-        //         content: "";
-        //         clear: both;
-        //         display: table;
-        //     }
-        //     @include respond(tabLand) {
-        //         position: absolute;
-        //         top: 5%;
-        //         left: 5%;
-        //     }
-        // }
-
-        // .logo {
-        //     float: left;
-        //     transform: translateX(5%);
-        //     @include respond(tabLand) {
-        //         transform: translateX(0);
-        //     }
-        // }
-        // .socialMediaNav {
-        //     list-style: none;
-        //     float: right;
-        //     @include respond(tabLand) {
-        //         transform: translateX(65%);
-        //     }
-
-        //     li {
-        //         display: inline-block;
-        //         margin-left: 3rem;
-
-        //         &:first-child {
-        //             margin: 0;
-        //         }
-
-        //         a:any-link {
-        //             text-decoration: none;
-        //             font-size: 2.5rem;
-        //             color: $colorPrimaryDark;
-        //         }
-        //     }
-        // }
     }
 }
