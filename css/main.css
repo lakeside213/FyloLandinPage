@@ -94,7 +94,7 @@ body {
 }
 
 .navbarLogo {
-  background-image: url(../../images/logo.svg);
+  background-image: url(/images/logo.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 3rem;
