@@ -13,7 +13,7 @@
         background-image: url(../images/bg-intro.svg);
         background-size: 100% 135%;
         @include respond(tabLand) {
-            background-size: 100% 75vh;
+            background-size: 100% 75%;
             position: relative;
         }
     }
