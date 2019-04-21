@@ -3,7 +3,10 @@
 *::before {
     margin: 0;
     padding: 0;
+    outline: 0;
     box-sizing: inherit;
+    vertical-align: baseline;
+    background: transparent;
 }
 
 html {
