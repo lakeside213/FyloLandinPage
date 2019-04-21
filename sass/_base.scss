@@ -19,6 +19,9 @@ html {
     }
 }
 
+svg.logo * {
+    fill: $colorWhite;
+}
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
