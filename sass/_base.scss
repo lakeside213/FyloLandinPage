@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    @include respond(tabLand) {
+        font-size: 56.25%;
+    }
+    @include respond(Phone) {
+        font-size: 50%;
+    }
+    @include respond(bigDesktop) {
+        font-size: 75%;
+    }
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 100%;
+}

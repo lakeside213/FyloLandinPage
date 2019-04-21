@@ -1,0 +1,34 @@
+.signUp {
+    margin: 3rem;
+    &Title {
+        font-family: "Raleway", sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        font-weight: 700;
+    }
+    &Btn {
+        padding: 1rem;
+        display: inline-block;
+        text-align: center;
+        border-radius: 0.6rem;
+        width: 13rem;
+        @include respond(tabLand) {
+            margin-top: 1rem;
+            width: 13rem;
+        }
+        padding-bottom: 1.4rem;
+        text-decoration: none;
+        color: #fff;
+        margin-left: 0.7rem;
+        font-size: 1.8rem;
+        box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+        background-color: $colorAccent;
+    }
+    &Input {
+        width: 25rem;
+        height: 5rem;
+        border-radius: 0.3rem;
+        border: 0;
+        box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.2);
+    }
+}

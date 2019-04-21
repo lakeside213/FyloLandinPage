@@ -1,0 +1,45 @@
+.split {
+    position: relative;
+    width: 50%;
+    float: left;
+    height: 100vh;
+    @include respond(tabLand) {
+        position: unset;
+        width: 100%;
+        float: none;
+    }
+    &__left {
+        background-repeat: no-repeat;
+        background-image: url(../images/bg-intro.svg);
+        background-size: 100% 135%;
+        @include respond(tabLand) {
+            background-size: 100% 75vh;
+            position: relative;
+        }
+    }
+    &__right {
+        background-color: #fff;
+        padding: 5rem;
+        @include respond(tabLand) {
+            padding: 0;
+        }
+    }
+    &__img {
+        position: absolute;
+
+        left: 50%;
+        top: 50%;
+        @include respond(tabLand) {
+            top: 40%;
+        }
+        transform: translate(-50%, -50%);
+
+        img {
+            height: 35rem;
+            @include respond(tabLand) {
+                height: 24rem;
+            }
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.content {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    padding: 3rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    @include respond(tabLand) {
+        position: static;
+        padding: 1rem;
+        transform: none;
+        margin-top: -40%;
+    }
+}

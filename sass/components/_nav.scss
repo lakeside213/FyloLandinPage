@@ -1,0 +1,83 @@
+.navbar {
+    overflow: hidden;
+    top: 5%;
+    left: 0;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+
+    &Logo {
+        background-image: url(../../images/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 3rem;
+        width: 13rem;
+        margin-left: 5%;
+        float: left;
+    }
+    &SocialMediaNav {
+        position: absolute;
+        right: 5%;
+        top: 5%;
+        li {
+            display: inline-block;
+            margin-left: 3rem;
+
+            &:first-child {
+                margin: 0;
+            }
+
+            a:any-link {
+                text-decoration: none;
+                font-size: 2.5rem;
+                color: $colorPrimaryDark;
+                @include respond(tabLand) {
+                    font-size: 2rem;
+                    color: $colorWhite;
+                }
+            }
+        }
+        //     &::after {
+        //         content: "";
+        //         clear: both;
+        //         display: table;
+        //     }
+        //     @include respond(tabLand) {
+        //         position: absolute;
+        //         top: 5%;
+        //         left: 5%;
+        //     }
+        // }
+
+        // .logo {
+        //     float: left;
+        //     transform: translateX(5%);
+        //     @include respond(tabLand) {
+        //         transform: translateX(0);
+        //     }
+        // }
+        // .socialMediaNav {
+        //     list-style: none;
+        //     float: right;
+        //     @include respond(tabLand) {
+        //         transform: translateX(65%);
+        //     }
+
+        //     li {
+        //         display: inline-block;
+        //         margin-left: 3rem;
+
+        //         &:first-child {
+        //             margin: 0;
+        //         }
+
+        //         a:any-link {
+        //             text-decoration: none;
+        //             font-size: 2.5rem;
+        //             color: $colorPrimaryDark;
+        //         }
+        //     }
+        // }
+    }
+}

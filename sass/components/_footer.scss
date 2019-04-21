@@ -1,0 +1,13 @@
+.footer {
+    position: absolute;
+    right: 4vw;
+    top: 84vh;
+    @include respond(tabLand) {
+        position: static;
+        margin-top: 20%;
+        margin-left: 70%;
+    }
+    a {
+        font-size: 1.1rem;
+    }
+}
